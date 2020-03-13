@@ -2,7 +2,7 @@ import cv2
 import torch
 import numpy as np
 
-device = 'cpu'  # 'cpu' or 'cuda'
+device = 'cuda'  # 'cpu' or 'cuda'
 
 test_image_path = './test/2.bmp'
 

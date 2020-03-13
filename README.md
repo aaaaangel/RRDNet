@@ -3,7 +3,8 @@ Implementation of "Zero-Shot Restoration of Underexposed Images via Robust Retin
 
 ### 1. Prerequisites
 
-* Pytorch >= 0.4.1
+* Python 3
+* PyTorch >= 0.4.1
 * PIL >= 6.1.0
 * Opencv-python>=3.4
 
@@ -11,7 +12,13 @@ Implementation of "Zero-Shot Restoration of Underexposed Images via Robust Retin
 
 There are two test underexposed images in `test` folder for demo.
 
-Run **`python pipline.py` **and you and get result images in `test` folder.
+Run
+
+```Cmd
+python3 pipline.py
+```
+
+and you will get result images in `test` folder.
 
 You can change the path of input image in `conf.py`:
 

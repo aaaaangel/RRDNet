@@ -39,7 +39,7 @@ def pipline_retinex(net, img):
 
         # log
         if i%100 == 0:
-            print("iter:", i, '  reconstruction loss:', loss_recons, '  illumination loss:', loss_illu, '  reflectance loss:', loss_reflect, '  noise loss:', loss_noise)
+            print("iter:", i, '  reconstruction loss:', float(loss_recons.data), '  illumination loss:', float(loss_illu.data), '  reflectance loss:', float(loss_reflect.data), '  noise loss:', float(loss_noise.data))
 
 
     # adjustment
